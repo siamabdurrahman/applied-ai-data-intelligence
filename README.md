@@ -42,8 +42,8 @@ A curated set of Jupyter notebooks developed during the AI for Data Intelligence
 ## Running the notebooks
 
 ```bash
-git clone https://github.com/siamabdurrahman/AI-for-Data-Intelligence---Canterbury-P18734-.git
-cd AI-for-Data-Intelligence---Canterbury-P18734-
+git clone https://github.com/siamabdurrahman/applied-ai-data-intelligence.git
+cd applied-ai-data-intelligence
 pip install numpy pandas matplotlib scikit-learn jupyter
 jupyter notebook
 ```
