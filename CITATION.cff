@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this academic portfolio, please cite it as follows."
+title: "Applied AI and Data Intelligence Portfolio"
+type: software
+authors:
+  - family-names: "Siam"
+    given-names: "Abdur Rahman"
+    orcid: "https://orcid.org/0009-0002-5904-9477"
+repository-code: "https://github.com/siamabdurrahman/applied-ai-data-intelligence"
+version: "1.0"
+date-released: 2026-09-21
+keywords:
+  - applied machine learning
+  - explainable AI
+  - healthcare data
+  - principal component analysis
+  - Jupyter
+

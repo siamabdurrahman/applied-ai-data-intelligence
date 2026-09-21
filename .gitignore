@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Local datasets and generated artefacts
+data/
+datasets/
+outputs/
+models/
+*.joblib
+*.pkl
+
