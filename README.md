@@ -1,189 +1,63 @@
-# AI for Data Intelligence - Canterbury P18734
+# Applied AI and Data Intelligence Portfolio
 
-This repository contains a collection of practical machine learning and artificial intelligence notebooks completed as part of the **AI for Data Intelligence** course at **Canterbury Christ Church University**.
+A curated set of Jupyter notebooks developed during the AI for Data Intelligence module at Canterbury Christ Church University. The collection documents practical work in machine learning, healthcare data, dimensionality reduction, image analysis, and explainable AI.
 
-The work in this repository represents my weekly practical exercises, coursework activities, and project-based learning in data intelligence, machine learning, data analysis, medical dataset classification, dimensionality reduction, and explainable artificial intelligence.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)
+![Machine Learning](https://img.shields.io/badge/Focus-Applied%20Machine%20Learning-6f42c1)
 
-## Repository Name
+## Portfolio themes
 
-`AI-for-Data-Intelligence---Canterbury-P18734-`
+| Theme | Evidence in this repository |
+| --- | --- |
+| Healthcare classification | Heart-disease and breast-cancer practicals |
+| Dimensionality reduction | Principal component analysis notebook |
+| Explainable AI | `XAI.ipynb` |
+| Mixed data modalities | Numeric and image-data exercises |
+| Experimental practice | Preprocessing, training, evaluation, and visualisation across weekly notebooks |
 
-## About This Repository
+## Notebook index
 
-This repository was created to document and showcase the practical work I completed while studying the AI for Data Intelligence course. Each notebook represents a weekly practical task, worksheet, or machine learning exercise.
+| Notebook | Focus |
+| --- | --- |
+| `Week -2 (Numeric and Image).ipynb` | Numeric and image-data processing |
+| `Week 3(Heart Disease)` | Heart-disease data analysis |
+| `Week - 4 (PCA).ipynb` | Principal component analysis |
+| `Breast Cancer (Week-6).ipynb` | Breast-cancer classification |
+| `Week -7.ipynb`, `Week - 7 (2).ipynb` | Applied machine-learning exercises |
+| `Week - 8 (Practical Worksheet).ipynb` | Practical worksheet |
+| `Week - 9.ipynb`, `Week - 10.ipynb`, `Week -11.ipynb` | Later module practicals |
+| `XAI.ipynb` | Model interpretation and explainable AI |
 
-The projects demonstrate the use of Python and Jupyter Notebook to analyse datasets, build machine learning models, evaluate performance, and understand how artificial intelligence techniques can be applied to real-world data problems.
+## Skills demonstrated
 
-## Contents
+- Python and Jupyter-based analysis
+- NumPy, pandas, Matplotlib, and scikit-learn
+- Data preparation and exploratory analysis
+- Supervised classification and model evaluation
+- Feature reduction with PCA
+- Explainability and model interpretation
+- Technical documentation of experimental work
 
-| File | Description |
-|---|---|
-| `Breast Cancer (Week-6).ipynb` | Breast cancer classification using machine learning techniques. |
-| `README.md` | Documentation for this repository. |
-| `Week - 10.ipynb` | Advanced practical notebook from the course. |
-| `Week - 4 (PCA).ipynb` | Practical implementation of Principal Component Analysis for dimensionality reduction. |
-| `Week - 7 (2).ipynb` | Additional Week 7 practical work or extended exercise. |
-| `Week - 8 (Practical Worksheet).ipynb` | Practical worksheet completed as part of the course. |
-| `Week - 9.ipynb` | Weekly practical work related to AI and data intelligence. |
-| `Week -11.ipynb` | Final weekly practical notebook included in this coursework collection. |
-| `Week -2 (Numeric and Image).ipynb` | Practical work involving numeric data and image-based data processing. |
-| `Week -7.ipynb` | Weekly practical notebook covering machine learning concepts and implementation. |
-| `Week 3(Heart Disease)` | Machine learning analysis using a heart disease dataset. |
-| `XAI.ipynb` | Explainable AI notebook focused on model interpretability and understanding AI decisions. |
-
-## Topics Covered
-
-This repository covers a range of artificial intelligence and machine learning topics, including:
-
-- Data preprocessing
-- Exploratory data analysis
-- Numeric data analysis
-- Image data processing
-- Classification models
-- Medical dataset analysis
-- Heart disease prediction
-- Breast cancer classification
-- Principal Component Analysis
-- Feature reduction
-- Model training and evaluation
-- Explainable Artificial Intelligence
-- Jupyter Notebook-based experimentation
-
-## Technologies Used
-
-The practical work in this repository uses the following tools and technologies:
-
-- Python
-- Jupyter Notebook
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Machine learning algorithms
-- Data visualisation techniques
-- Explainable AI methods
-
-## Purpose of the Project
-
-The purpose of this repository is to present the practical machine learning and artificial intelligence work I completed during my study at Canterbury Christ Church University.
-
-This repository also acts as a learning portfolio, showing my development in applying AI and data intelligence techniques to different types of datasets, including healthcare-related datasets, numeric datasets, and image-based data.
-
-## Key Learning Outcomes
-
-Through these weekly practicals and projects, I developed experience in:
-
-- Preparing datasets for machine learning
-- Cleaning and processing data
-- Analysing structured and image-based data
-- Applying classification algorithms
-- Evaluating machine learning model performance
-- Using PCA for dimensionality reduction
-- Working with healthcare-related datasets
-- Understanding explainable AI concepts
-- Building reproducible machine learning workflows in Jupyter Notebook
-
-## Example Areas of Work
-
-### Medical Data Analysis
-
-Some notebooks focus on healthcare-related machine learning tasks, including heart disease and breast cancer datasets. These practicals helped me understand how machine learning can be used to support classification and decision-making in medical data analysis.
-
-### Principal Component Analysis
-
-The PCA practical explores dimensionality reduction, helping to reduce feature complexity while preserving important information in the dataset.
-
-### Explainable AI
-
-The `XAI.ipynb` notebook explores explainable artificial intelligence, focusing on how machine learning models can be interpreted and understood. This is important for building trustworthy and transparent AI systems.
-
-## How to Run the Notebooks
-
-To run the notebooks locally, follow these steps.
-
-### 1. Clone the Repository
+## Running the notebooks
 
 ```bash
 git clone https://github.com/siamabdurrahman/AI-for-Data-Intelligence---Canterbury-P18734-.git
-```
-
-### 2. Open the Repository Folder
-
-```bash
 cd AI-for-Data-Intelligence---Canterbury-P18734-
-```
-
-### 3. Install Required Libraries
-
-```bash
 pip install numpy pandas matplotlib scikit-learn jupyter
-```
-
-### 4. Start Jupyter Notebook
-
-```bash
 jupyter notebook
 ```
 
-### 5. Open and Run the Notebooks
+Some notebooks may require additional packages or external datasets identified within their cells. Run notebooks in an isolated environment and review paths and dependencies before execution.
 
-Open any `.ipynb` file and run the cells step by step.
+## Academic context
 
-## Repository Structure
-
-```text
-AI-for-Data-Intelligence---Canterbury-P18734-/
-│
-├── Breast Cancer (Week-6).ipynb
-├── README.md
-├── Week - 10.ipynb
-├── Week - 4 (PCA).ipynb
-├── Week - 7 (2).ipynb
-├── Week - 8 (Practical Worksheet).ipynb
-├── Week - 9.ipynb
-├── Week -11.ipynb
-├── Week -2 (Numeric and Image).ipynb
-├── Week -7.ipynb
-├── Week 3(Heart Disease)
-└── XAI.ipynb
-```
-
-## Skills Demonstrated
-
-This coursework repository demonstrates practical skills in:
-
-- Python programming
-- Data analysis
-- Machine learning
-- Classification
-- Feature engineering
-- Data visualisation
-- Dimensionality reduction
-- Healthcare data analysis
-- Explainable AI
-- Academic machine learning experimentation
-
-## About Me
-
-I am **Abdur Rahman Siam**, with an interest in artificial intelligence, machine learning, biomedical data analysis, and explainable AI.
-
-This repository represents part of my academic learning journey and practical experience in applying AI techniques to real-world data problems.
-
-## Academic Context
-
-This work was completed as part of my study at **Canterbury Christ Church University** for the **AI for Data Intelligence** course.
-
-The notebooks are intended to demonstrate my understanding of machine learning concepts, practical implementation, and development of data intelligence skills through weekly coursework activities.
-
-## Disclaimer
-
-This repository contains academic coursework and practical exercises completed for educational purposes. The notebooks are intended for learning, demonstration, and portfolio use.
-
-Some notebooks may require additional cleaning, optimisation, or documentation before being used in production-level applications.
+These notebooks are coursework and learning artefacts. They demonstrate the progression of practical skills rather than a single production system. Healthcare examples are educational and are not clinically validated or suitable for diagnosis.
 
 ## Author
 
-**Abdur Rahman Siam**
+**Abdur Rahman Siam**  
+MSc Cybersecurity Technology researcher interested in explainable and trustworthy AI, digital health, multimodal sensing, privacy-preserving machine learning, and IoT security.
 
-- GitHub: [siamabdurrahman](https://github.com/siamabdurrahman)
-- Repository: [AI-for-Data-Intelligence---Canterbury-P18734-](https://github.com/siamabdurrahman/AI-for-Data-Intelligence---Canterbury-P18734-)
+- [ORCID](https://orcid.org/0009-0002-5904-9477)
+- [LinkedIn](https://www.linkedin.com/in/abdur-rahman-siam-86a705353)
